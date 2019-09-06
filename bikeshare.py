@@ -161,6 +161,7 @@ def user_stats(df):
     print('-'*40)
 
 def raw_data(df):
+        """Ask user if he/she wants to view raw data."""
     ans = input('Would you like to see some raw data? Please type "Yes" or "No"\n')
     i = 0
     while True:
