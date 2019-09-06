@@ -20,4 +20,5 @@ In this project, you will make use of Python to explore data related to bike sha
 * [NumPy](https://www.geeksforgeeks.org/numpy-in-python-set-1-introduction/)
 * [Pandas DataFrame](https://www.geeksforgeeks.org/python-pandas-dataframe/)
 * [Asking the user for input until they give a valid response](https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response)
+* [Try Except](https://www.w3schools.com/python/python_try_except.asp)
 * I would also like to thank my mentor Joshua for his help.
