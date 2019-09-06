@@ -19,21 +19,21 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = input('Which city do you want to analyze? Chicago? New York city? Washington? Enter the name of the city\n')
     while city.lower() not in CITY_DATA.keys():
-        city = input('Plese input a valid city name as shown in the question. Which city do you want to analyze? Chicago? New York city? Washington? Enter the name of the city\n')
+        city = input('Plese input a valid city name as shown in the question\n')
     print('City chosen: {}'.format(city))
 
     # TO DO: get user input for month (all, january, february, ... , june)
     month = input('Which month do you want to analyze? january? february? march? april? may? june? or all months? if all months, enter all\n')
     months = ['all','january','february','march','april','may','june']
     while month.lower() not in months:
-        month = input('Please enter a valid month. Which month do you want to analyze? january? february? march? april? may? june? or all months? if all months, enter all\n')
+        month = input('Please enter a valid month\n')
     print('Month chosen: {}'.format(month))
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     day = input ('which day? all? monday? tuesday? wednesday? thursday? friday? saturday? sunday?\n')
     days = ['all','monday','tuesday','wednesday','thursday','friday','saturday','sunday']
     while day.lower() not in days:
-        day = input ('Please enter valid day. Which day? all? monday? tuesday? wednesday? thursday? friday? saturday? sunday?\n')
+        day = input ('Please enter valid day\n')
     print('Day chosen: {}'.format(day))
     print('-'*40)
     return city, month, day
